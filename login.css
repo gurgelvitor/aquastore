@@ -27,54 +27,7 @@ h1{
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
-    body{
-        background-color: blue;
-    }
-
-    section{
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 20px;
-        box-shadow: rgba(0, 0, 0, 0.425) 5px 5px 5px;
-    }
-
-    #divimg{
-        background-image: url(imagens/peixe-login.avif);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        height: 250px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    #divtext{
-        max-width: 600px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        padding: 10px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (orientation: landscape){
+@media screen and (max-width: 800px){
     body{
         background-color: blue;
     }
@@ -138,7 +91,17 @@ h1{
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 992px){
     body{
         background-color: blue;
         
