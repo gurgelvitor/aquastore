@@ -27,7 +27,7 @@ h1{
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     body{
         background-color: blue;
     }
@@ -101,7 +101,7 @@ h1{
 
 
 
-@media screen and (min-width: 800px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-color: blue;
         
@@ -121,7 +121,7 @@ h1{
 
 
     #divimg{
-        background-color: brown;
+        background-color: rgb(132, 165, 42);
         width: 40%;
         height: 450px;
         display: inline-block;
