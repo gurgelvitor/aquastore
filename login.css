@@ -57,6 +57,7 @@ section{
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.425) 5px 5px 5px;
+    width: 90%;
 }
 
 #divimg{
