@@ -13,27 +13,39 @@ h1{
 
 #enviar{
     margin: auto;
-    width: 180px;
+    width: 90%;
     margin-top: 30px;
 }
 
 #enviarbtn{
-    width: 180px;
+    width: 100%;
     background-color: white;
-    color: blue;
-    border-color: blue;
+    color: purple;
+    border-color: purple;
     transition: all 0.5s;
 }
 
 #enviarbtn:hover{
-    background-color: blue;
+    background-color: purple;
     color: white;
     transition: all 0.5s;
     cursor: pointer;
 }
 
+#forgotpassword{
+    width: 90%;
+    background-color: white;
+    color: purple;
+    border-color: purple;
+    transition: all 0.5s;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 input{
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -56,6 +68,31 @@ section{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     display: block;
+}
+
+.divinputususen{
+    background-color: purple;
+    width: 90%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.inputususen{
+    margin-top: 0px;
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+}
+
+i{
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+
 }
 
 @media screen and (max-width: 768px){
