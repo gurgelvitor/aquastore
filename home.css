@@ -2,3 +2,65 @@
     padding: 0px;
     margin: 0px;
 }
+
+header > div#img{
+    background-image: url(imagens/recife-de-coral.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10vw;
+}
+
+#c1{
+    color: blue;
+}
+
+#c2{
+    color: dodgerblue;
+}
+
+#blackbox{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 500px;
+}
+
+#titlebox{
+    width: 50%;
+    margin: auto;
+}
+
+header p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+menu > div{
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+header input{
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    color: dodgerblue;
+    font-weight: bolder;
+    border-radius: 50px;
+    border-color: dodgerblue;
+    position: relative;
+}
+
+header input:hover{
+    color: white;
+    background-color: dodgerblue;
+    transition: all 0.5s;
+    top: -5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
