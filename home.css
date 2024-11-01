@@ -4,12 +4,13 @@
 }
 
 header > div#img{
-    background-image: url(imagens/recife-de-coral.jpg);
+    background-image: url(imagens/coralghome.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 350px;
     background-attachment: fixed;
+    margin-top: -25px;
 }
 
 b{
@@ -27,7 +28,7 @@ b{
 
 #blackbox{
     background-color: rgba(0, 0, 0, 0.603);
-    height: 500px;
+    height: 350px;
 }
 
 #titlebox{
@@ -39,6 +40,7 @@ header p{
     color: white;
     text-align: center;
     font-size: 1.5em;
+    padding: 20px;
 }
 
 menu > div{
@@ -47,20 +49,150 @@ menu > div{
 }
 
 header input{
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
     background-color: white;
     color: dodgerblue;
     font-weight: bolder;
-    border-radius: 50px;
     border-color: dodgerblue;
-    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
 }
 
 header input:hover{
     color: white;
     background-color: dodgerblue;
     transition: all 0.5s;
-    top: -5px;
+    top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
+
+
+menu{
+    display: none;
+}
+
+i#burguermenu{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+i#burguermenu:hover{
+    background-color: rgb(0, 0, 0);
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    header input{
+        padding: 10px;
+        background-color: white;
+        color: dodgerblue;
+        font-weight: bolder;
+        border-color: none;
+        cursor: pointer;
+        width: 15%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    header input:hover{
+        color: white;
+        background-color: dodgerblue;
+        transition: all 0.5s;
+        top: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+    }
+
+    i#burguermenu{
+        display: transparent;
+    }
+
+    menu{
+        display: block;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    header input{
+        padding: 10px;
+        background-color: white;
+        color: dodgerblue;
+        font-weight: bolder;
+        border-color: transparent;
+        width: 15%;
+        display: inline-block;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    header input:hover{
+        color: white;
+        background-color: dodgerblue;
+        transition: all 0.5s;
+        top: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+    }
+
+    i#burguermenu{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        margin-top: 25px;
+    }
 }

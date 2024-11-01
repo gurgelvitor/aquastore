@@ -20,13 +20,13 @@ h1{
 #enviarbtn{
     width: 100%;
     background-color: white;
-    color: purple;
-    border-color: purple;
+    color: rgb(6, 112, 86);
+    border-color: rgb(6, 112, 86);
     transition: all 0.5s;
 }
 
 #enviarbtn:hover{
-    background-color: purple;
+    background-color: rgb(6, 112, 86);
     color: white;
     transition: all 0.5s;
     cursor: pointer;
@@ -35,8 +35,8 @@ h1{
 #forgotpassword{
     width: 90%;
     background-color: white;
-    color: purple;
-    border-color: purple;
+    color: rgb(6, 112, 86);
+    border-color: rgb(6, 112, 86);
     transition: all 0.5s;
     margin: auto;
     display: block;
@@ -72,7 +72,7 @@ section{
 }
 
 .divinputususen{
-    background-color: purple;
+    background-color: rgb(6, 112, 86);
     width: 90%;
     margin: auto;
     display: block;
@@ -98,7 +98,7 @@ i{
 
 @media screen and (max-width: 768px){
     body{
-        background-color: blue;
+        background-color: rgb(50, 50, 255);
     }
 
     #divtext{
@@ -118,7 +118,7 @@ i{
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-color: blue;
+        background-color: rgb(50, 50, 255);
         
     }
 
@@ -147,10 +147,8 @@ i{
 }
 
 @media screen and (min-width: 992px){
-
-    
     body{
-        background-image: linear-gradient(to bottom, blue, green);
+        background-image: linear-gradient(to bottom, rgb(64, 64, 252), rgb(47, 121, 47));
         width: 100vw;
         height: 100vh;
     }
@@ -162,7 +160,7 @@ i{
 
     #divimg{
         width: 50%;
-        height: 450px;
+        height: 460px;
         display: inline-block;
         float: right;
         border-radius: 0px 20px 20px 0px;

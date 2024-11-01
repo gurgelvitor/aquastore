@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AquaStore</title>
     <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
-        <menu>
-            <div>
-                <img src="imagens/logoaqua.png" alt="">
-            </div>
             <div style="position: relative; top: -25px;">
-                <input type="button" value="Sobre"></input>
-                <input type="button" value="Corais"></input>
-                <input type="button" value="Peixes"></input>
-                <input type="button" value="Equipamentos"></input>
-                <input type="button" value="Instagram"></input>
-                <a href="login/login.html"><input type="button" value="Login"></input></a>
+                <i class="material-icons" id="burguermenu" onclick="clickMenu()">menu</i>
+                <menu id="itens">
+                    <input type="button" value="Sobre"></input>
+                    <input type="button" value="Corais"></input>
+                    <input type="button" value="Peixes"></input>
+                    <input type="button" value="Equipamentos"></input>
+                    <input type="button" value="Instagram"></input>
+                    <a href="login/login.html"><input type="button" value="Login"></input></a>
+                </menu>
             </div>
-        </menu>
         <div id="img">
             <div id="blackbox">
                 <div id="titlebox">
@@ -32,5 +31,15 @@
             </div>
         </div>
     </header>
+    
 </body>
+<script>
+    function clickMenu(){
+        if(itens.style.display == 'block'){
+            itens.style.display = 'none'
+        }else{
+            itens.style.display = 'block'
+        }
+    }
+</script>
 </html>
